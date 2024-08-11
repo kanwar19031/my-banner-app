@@ -10,4 +10,6 @@ CREATE TABLE banners (
     link VARCHAR(255)
 );
 
+INSERT INTO banners (is_visible, description, timer, link) VALUES (1, 'Welcome to our site!', 60, 'https://example.com');
+
 select * from banners;
